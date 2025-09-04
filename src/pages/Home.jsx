@@ -18,8 +18,8 @@ const Home = () => {
     },
     {
       icon: Cloud,
-      title: 'DevOps & Cloud',
-      description: 'Automating deployment, optimizing infrastructure and managing cloud services.',
+      title: 'DevOps ',
+      description: 'Automating deployment, optimizing infrastructure ',
       color: 'from-purple-400 to-purple-600'
     },
     {

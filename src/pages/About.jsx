@@ -23,10 +23,10 @@ const About = () => {
 
   const education = [
     {
-      degree: 'B.Sc. in Computer Science',
-      institution: 'University of Technology',
-      period: 'Sep 2015 - May 2019',
-      description: 'Graduated with honors, specializing in Software Engineering and Web Development. Coursework included Data Structures and Algorithms, Database Management, and Human-Computer Interaction. Completed a capstone project developing a real-time chat application.'
+      degree: 'pending',
+      institution: 'Ucommon.org',
+      period: 'jan 25 - dec ',
+      description: '•	Built real-world projects and collaborated on team-based sprints.'
     }
   ];
 
