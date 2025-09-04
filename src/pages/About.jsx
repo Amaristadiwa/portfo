@@ -32,22 +32,22 @@ const About = () => {
 
   const experience = [
     {
-      position: 'Full Stack Developer',
-      company: 'Tech Innovations Inc.',
-      period: 'Jan 2022 - Present',
-      description: 'Led the development of a scalable e-commerce platform using React, Node.js, and MongoDB. Implemented RESTful APIs, integrated payment gateways, and optimized database queries, reducing response times by 30%. Collaborated with cross-functional teams to define project requirements and deliver high-quality software solutions.'
+      position: ' Developer',
+      company: 'Non',
+      period: 'Non',
+      description: '•'
     },
     {
       position: 'Frontend Developer',
-      company: 'Creative Solutions Agency',
-      period: 'Jul 2019 - Dec 2021',
+      company: 'non',
+      period: 'non',
       description: 'Designed and developed responsive user interfaces for various client websites using modern JavaScript frameworks like Vue.js. Focused on user experience (UX) research, UI prototyping, and A/B testing to enhance engagement and conversion rates. Maintained code quality through peer reviews and continuous integration.'
     }
   ];
 
   return (
     <div className="pt-20">
-      {/* Hero Section */}
+      
       <section className="py-20 px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

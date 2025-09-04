@@ -69,7 +69,7 @@ const Projects = () => {
         </motion.div>
       </section>
 
-      {/* Projects Grid */}
+   
       <section className="pb-20 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -83,7 +83,7 @@ const Projects = () => {
                 className="group"
               >
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                  {/* Project Image */}
+                 
                   <div className="relative overflow-hidden h-48">
                     <img
                       src={project.image}
@@ -101,7 +101,7 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  {/* Project Content */}
+                 
                   <div className="p-6">
                     <div className="flex justify-between items-start mb-3">
                       <h3 className="text-xl font-bold text-gray-900">{project.title}</h3>
@@ -110,7 +110,7 @@ const Projects = () => {
                       </span>
                     </div>
                     
-                    {/* Technology Tags */}
+                  
                     <div className="flex flex-wrap gap-2 mb-4">
                       {project.tech.map((tech) => (
                         <span
