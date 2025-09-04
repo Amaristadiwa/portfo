@@ -25,19 +25,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Me',
-      value: 'hello@tadiwa.dev',
+      value: 'tadiwamangate9@gmail.com',
       description: 'Send me an email and I\'ll respond within 24 hours'
     },
     {
       icon: Phone,
       title: 'Call Me',
-      value: '+1 (555) 123-4567',
+      value: '0774 700 857',
       description: 'Available Monday to Friday, 9 AM - 6 PM EST'
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'New York, NY',
+      value: 'Harere mufakose',
       description: 'Open to remote work and travel opportunities'
     }
   ];
