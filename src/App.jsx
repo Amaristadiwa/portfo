@@ -6,11 +6,15 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import FloatingTechIcons from './components/FloatingTechIcons';
+import InteractiveBackground from './components/InteractiveBackground';
 import './index.css'
 
 function App() {
   return (
     <Router>
+      <InteractiveBackground />
+      <FloatingTechIcons />
       <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50">
         <Navigation />
         <Routes>

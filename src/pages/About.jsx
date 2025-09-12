@@ -78,7 +78,7 @@ const About = () => {
                 Welcome to My Creative Universe
               </h1>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                I'm Aurora, a passionate creator blending artistry with digital innovation. My journey is about weaving beauty and function into every project, crafting experiences that are both inspiring and impactful.
+                I'm Tadiwa, a passionate creator blending artistry with digital innovation. My journey is about weaving beauty and function into every project, crafting experiences that are both inspiring and impactful.
               </p>
               <button className="px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-500 text-white rounded-full font-semibold hover:from-pink-600 hover:to-purple-600 transition-all duration-300 transform hover:scale-105">
                 Discover My Story
