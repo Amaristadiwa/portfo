@@ -91,7 +91,7 @@ const Home = () => {
               >
                 <div className="flex items-center mb-6">
                   <img
-                    src="src/images/Snapchat-8135359.jpg"
+                    src="src\images\IMG-20251030-WA0011.jpg"
                     alt="Profile"
                     className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
                   />
@@ -132,9 +132,9 @@ const Home = () => {
                 <div className="relative">
                   <div className="w-full h-96 bg-gradient-to-r from-orange-400 to-yellow-500 rounded-3xl overflow-hidden">
                     <img
-                      src="src/images/Snapchat-8135359.jpg"
+                      src="src\images\IMG-20251030-WA0011.jpg"
                       alt="Creative workspace"
-                      className="w-full h-full object-cover"
+                      className="w-full h-100px object-cover"
                     />
                   </div>
                   <div className="absolute -top-4 -right-4 w-24 h-24 bg-white rounded-full shadow-xl flex items-center justify-center">

@@ -59,7 +59,7 @@ const About = () => {
             >
               <div className="w-80 h-80 mx-auto lg:mx-0 rounded-full overflow-hidden border-8 border-white shadow-2xl">
                 <img
-                  src="src\images\Snapchat-548283091.jpg"
+                  src="src\images\IMG-20251030-WA0011.jpg"
                   alt="Tadiwa"
                   className="w-full h-full object-cover"
                 />
