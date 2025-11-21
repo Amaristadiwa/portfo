@@ -4,6 +4,9 @@ import { Download, Mail, Code, Database, Cloud, Smartphone, Palette, BarChart3, 
 
 import InteractiveBackground from '../components/InteractiveBackground';
 import FloatingTechIcons from '../components/FloatingTechIcons';
+import ProfileImage from '../images/TadiwaProfile.jpg';
+
+
 
 const Home = () => {
   /* skills and featuredProjects arrays unchanged - copy yours here */
@@ -91,10 +94,11 @@ const Home = () => {
               >
                 <div className="flex items-center mb-6">
                   <img
-                    src="src\images\IMG-20251030-WA0011.jpg"
-                    alt="Profile"
-                    className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
-                  />
+  src={ProfileImage}
+  alt="Profile"
+  className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-lg"
+/>
+
                 </div>
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                   Designing <span className="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">Dreams</span>,<br />
@@ -131,11 +135,12 @@ const Home = () => {
               >
                 <div className="relative">
                   <div className="w-full h-96 bg-gradient-to-r from-orange-400 to-yellow-500 rounded-3xl overflow-hidden">
-                    <img
-                      src="src\images\IMG-20251030-WA0011.jpg"
-                      alt="Creative workspace"
-                      className="w-full h-100px object-cover"
-                    />
+                  <img
+  src={ProfileImage}
+  alt="Creative workspace"
+  className="w-full h-100px object-cover"
+/>
+
                   </div>
                   <div className="absolute -top-4 -right-4 w-24 h-24 bg-white rounded-full shadow-xl flex items-center justify-center">
                     <motion.div

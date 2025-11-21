@@ -1,6 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Heart, GraduationCap, Briefcase, Coffee, Leaf, ChefHat } from 'lucide-react';
+import Tadiwa from "../images/TadiwaProfile.jpg";
+import SnapchatImage from "../images/TadiwaProfile.jpg"; 
+
+
 
 const About = () => {
   const passions = [
@@ -58,11 +62,13 @@ const About = () => {
               className="relative"
             >
               <div className="w-80 h-80 mx-auto lg:mx-0 rounded-full overflow-hidden border-8 border-white shadow-2xl">
-                <img
-                  src="src\images\IMG-20251030-WA0011.jpg"
-                  alt="Tadiwa"
-                  className="w-full h-full object-cover"
-                />
+<img
+  src={Tadiwa}
+  alt="Tadiwa"
+  className="w-full h-full object-cover"
+/>
+
+
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-to-r from-pink-400 to-purple-500 rounded-full flex items-center justify-center shadow-xl">
                 <Heart className="w-12 h-12 text-white" />
@@ -101,11 +107,12 @@ const About = () => {
               <div className="relative">
                 <div className="w-80 h-96 bg-gradient-to-br from-pink-200 to-purple-200 rounded-3xl p-8 mx-auto lg:mx-0">
                   <div className="w-full h-full bg-white/80 rounded-2xl flex items-center justify-center">
-                    <img
-                      src="src\images\Snapchat-34338130.jpg"
-                      alt="Creative illustration"
-                      className="w-48 h-48 object-cover rounded-full"
-                    />
+                 <img
+  src={SnapchatImage}
+  alt="Creative illustration"
+  className="w-48 h-48 object-cover rounded-full"
+/>
+
                   </div>
                 </div>
                 <div className="absolute top-4 right-4 w-12 h-12 bg-yellow-400 rounded-full"></div>
